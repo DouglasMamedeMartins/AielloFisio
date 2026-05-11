@@ -47,7 +47,13 @@ export const Cred = styled.div`
 `;
 
 export const CredIcon = styled.span`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.4rem;
   font-size: 1.4rem;
+  flex-shrink: 0;
 `;
 
 export const CredText = styled.span`
