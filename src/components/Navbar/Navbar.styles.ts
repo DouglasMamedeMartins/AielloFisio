@@ -5,7 +5,7 @@ export const Nav = styled.nav`
   top: 0;
   width: 100%;
   z-index: 100;
-  padding: 18px 5%;
+  padding: 0 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,15 +14,21 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.div`
- font-family: 'Cormorant Garamond', serif;
-  font-size: 2.3rem;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+ display: flex;
+  align-items: center;
 
-  color: #dbe7f3;
+  img {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 0 10px rgba(212,175,55,0.15));
+  }
 
-  span {
-    color: #d4af37;
+  @media (max-width: 768px) {
+    img {
+      height: 42px;
+    }
   }
 `;
 

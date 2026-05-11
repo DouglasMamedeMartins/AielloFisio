@@ -4,7 +4,7 @@ export function Navbar() {
   return (
     <Nav>
       <Logo>
-        Allegro<span>physio</span>
+        <img src="./logo.png" alt="" />
       </Logo>
       <NavList>
         <li>
