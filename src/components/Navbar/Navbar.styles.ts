@@ -14,10 +14,12 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.div`
-  font-family: 'Playfair Display', serif;
-  color: #fff;
-  font-size: 1.4rem;
-  letter-spacing: 1px;
+ font-family: 'Cormorant Garamond', serif;
+  font-size: 2.3rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+  color: #dbe7f3;
 
   span {
     color: #d4af37;
