@@ -16,19 +16,19 @@ export const Nav = styled.nav`
 export const Logo = styled.div`
  display: flex;
   align-items: center;
+  
 
   img {
     height: 100px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-    filter: drop-shadow(0 0 10px rgba(212,175,55,0.15));
   }
 
   @media (max-width: 768px) {
+    flex: 1;
+    justify-content: center;
     img {
-      height: 42px;
+      height: 75px;
     }
+
   }
 `;
 
