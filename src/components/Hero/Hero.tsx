@@ -45,7 +45,7 @@ export function Hero() {
           </Btns>
           <Stats>
             <Stat>
-              <StatNum>+100</StatNum>
+              <StatNum>+300</StatNum>
               <StatLabel>Pacientes</StatLabel>
             </Stat>
             <Stat>
