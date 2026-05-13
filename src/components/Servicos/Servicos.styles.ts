@@ -57,3 +57,9 @@ export const CardDesc = styled.p`
   line-height: 1.7;
   opacity: 0.85;
 `;
+
+
+export const Image = styled.img`
+  width: 50px;
+  height: 50px;
+`

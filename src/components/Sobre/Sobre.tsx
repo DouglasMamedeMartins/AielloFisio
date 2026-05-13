@@ -1,4 +1,4 @@
-import { SpineIcon } from "../icons/SpineIcon";
+import { Image } from "../Servicos/Servicos.styles";
 import { SectionTag, SectionTitle, SectionLine } from "../shared/SectionHeader";
 import {
   Section,
@@ -10,6 +10,7 @@ import {
   CredText,
   ImgWrap,
 } from "./Sobre.styles";
+import Coluna from "../../../public/coluna.png";
 
 const creds = [
   { icon: "🎓", text: "Graduado em Fisioterapia" },
@@ -38,7 +39,7 @@ export function Sobre() {
           <Creds>
             <Cred>
               <CredIcon>
-                <SpineIcon size={22} color="#d4af37" />
+                <Image src={Coluna} />
               </CredIcon>
               <CredText>Pós-graduado em Quiropraxia</CredText>
             </Cred>

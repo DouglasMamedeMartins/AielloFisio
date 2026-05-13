@@ -6,8 +6,9 @@ import {
   CardIcon,
   CardTitle,
   CardDesc,
+  Image,
 } from "./Servicos.styles";
-import { SpineIcon } from "../icons/SpineIcon";
+import Coluna from "../../../public/coluna.png";
 
 const services = [
   {
@@ -52,11 +53,7 @@ export function Servicos() {
         {services.map((s) => (
           <Card key={s.title}>
             <CardIcon>
-              {s.icon === null ? (
-                <SpineIcon size={38} color="#d4af37" />
-              ) : (
-                s.icon
-              )}
+              {s.icon === null ? <Image src={Coluna} /> : s.icon}
             </CardIcon>
             <CardTitle>{s.title}</CardTitle>
             <CardDesc>{s.desc}</CardDesc>
